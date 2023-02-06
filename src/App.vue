@@ -1,39 +1,24 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+<script>
+import internal from 'stream'
+
+export default {
+
+}
+
 </script>
 
 <template>
-    <div class="logo">
-        Eyouneed.com
-    </div>
+  <h1>Eyouneed</h1>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+* {
+  background-color: rgb(46, 46, 46);
 }
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50% 50%;
 }
 </style>
