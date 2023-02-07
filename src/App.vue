@@ -19,6 +19,7 @@ export default {
   <div class="menu">
     <br>
     <h1 class="linear-gradient">EYOUNEED.COM</h1>
+    <br>
        <div class="login">
 
        </div>
@@ -32,6 +33,10 @@ export default {
   width: 100%;
   height: 10vh;
   position: fixed;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 0% -3%;
   color: black;
   background: -webkit-linear-gradient(0deg, #000000 0%, #48abe0 100%);
   background: -webkit-radial-gradient(
