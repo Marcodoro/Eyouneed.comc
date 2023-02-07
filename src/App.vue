@@ -17,7 +17,6 @@ export default {
 
 <div class="wrapper">
   <div class="menu">
-    <br>
     <h1 class="linear-gradient">EYOUNEED.COM</h1>
     <br>
        <div class="login">
