@@ -5,7 +5,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
     <div class="logo">
-        Eyouneed.com
+        Eyouneed
     </div>
 </template>
 
